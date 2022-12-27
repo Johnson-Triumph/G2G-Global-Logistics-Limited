@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    background-color: black;
+}
+h2{
+    text-align: center;
+    font-size: large;
+    font-family:cursive;
+    color: orangered;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: orangered;
+    
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color:#003;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+nav ul li a{
+    color:red;
+    text-decoration:none;
+    font-family:cursive;
+    transition: 0.4s all ease;
+
+
+}
+nav span{
+    width: 50%;
+    padding: 5px;
+}
+nav span img{
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+
+}
+nav ul li a:hover{
+text-decoration: underline;
+color:white;
+}
+nav ul:hover{
+    cursor: pointer;
+}
+img span{
+    margin-left: 2px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color:orangered;
+}
+body a{
+    color: red;
+    text-align: center;
+    font: size 10px;
+    font-family: cursive;
+}
+h6{
+    font-size: medium;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
